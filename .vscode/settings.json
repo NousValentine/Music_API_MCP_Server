@@ -1,0 +1,21 @@
+{
+"go.alternateTools": {
+  "go": "/opt/homebrew/bin/go"
+},
+"[go]": {
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true
+},
+"go.useLanguageServer": true,
+"gopls": {
+  "ui.semanticTokens": true,
+  "analyses": {
+    "unusedparams": true,
+    "unusedvariable": true,
+    "fillreturns": true
+  },
+  "staticcheck": true
+}
+}
